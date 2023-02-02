@@ -14,3 +14,4 @@ service ssh restart
 
 # Install Additional Tools
 apt install jq -y
+apt install ./mongodb-database-tools-debian11-x86_64-100.6.1.deb
