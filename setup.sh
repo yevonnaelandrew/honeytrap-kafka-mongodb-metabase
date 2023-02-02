@@ -14,4 +14,8 @@ service ssh restart
 
 # Install Additional Tools
 apt install jq -y
+apt install zip
+apt install unzip
+
+wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-debian11-x86_64-100.6.1.deb
 apt install ./mongodb-database-tools-debian11-x86_64-100.6.1.deb
